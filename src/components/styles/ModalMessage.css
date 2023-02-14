@@ -1,0 +1,32 @@
+.modalMessage{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.567);
+    top: 0; 
+    height: 100vh;
+    left: 0;
+    right: 0;
+    display: grid;
+    place-content: center;
+    display: none;
+}
+
+.activeFormMessage{
+    display: grid;
+}
+
+.modalMessage__title{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.modalMessage__form{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+
+}

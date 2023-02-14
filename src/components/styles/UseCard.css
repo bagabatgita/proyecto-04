@@ -1,0 +1,55 @@
+.card {
+    margin-top: 20px;
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    border-radius: 10px;   
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card__list{
+    line-height: 30px;
+}
+
+span{
+    color: #C1BFBF;
+    line-height: 10px;
+}
+
+.card__footer{
+    display: flex;
+    justify-content:end;
+    gap: 5px;
+}
+
+.card__btnt{
+    background-color: #D93F3F;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card__btne{
+    background-color: #BDBDBD;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.card__btnt:hover{
+    
+    opacity: 0.4;
+    color: black;
+}
+
+.card__btne:hover{
+    opacity: 0.4;
+    color: black;
+    
+}
+
