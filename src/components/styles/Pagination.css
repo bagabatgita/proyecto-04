@@ -1,5 +1,5 @@
 .pagination{
-    cursor: pointer;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,6 +16,7 @@
     height: 30px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
    
     
     
