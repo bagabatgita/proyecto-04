@@ -6,6 +6,7 @@
     border-radius: 10px;   
     overflow: hidden;
     padding: 20px;
+    width: 90%;
 }
 
 .card__list{
