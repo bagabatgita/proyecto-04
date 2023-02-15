@@ -10,7 +10,7 @@ const ModalMessage = ({message,isShowModalMessage,handleClickShowModalMessage}) 
 
   return (
     <section className={`modalMessage ${isShowModalMessage ? "activeFormMessage" : ""}`}>
-     <form  className='modalMessage__form' action="">
+     <div  className='modalMessage__form'>
     
       <i onClick={handleClickClose} className="modalForm__x bx bx-x"></i>
       <div className="modalMessage__div">
@@ -19,8 +19,8 @@ const ModalMessage = ({message,isShowModalMessage,handleClickShowModalMessage}) 
         </label>
         
       </div>
-      <button onClick={handleClickClose}> OK</button>
-    </form>
+      <button type="submit" onClick={handleClickClose}> OK</button>
+    </div>
       
   
   </section>
